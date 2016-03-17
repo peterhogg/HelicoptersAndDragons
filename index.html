@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Helicopter and Dragons!</title>
+        <style>
+            #myCanvas {
+		border: 1px solid black;
+		margin: 20px;
+            }
+        </style>
+        <script src="spritelib.js" type="text/javascript"></script>
+        <script src="helicopter.js" type="text/javascript"></script>
+    </head>
+    <body onload="init()">
+        <div>Helicopters and Dragons!</div>
+
+        <div>
+          Instructions: The helicopter will slowly fall. Click to ascend. Avoid the thunder clouds, road, and any other obsticals that may appear
+        </div>
+        <p>Score : </p><h1 id="score"></h1>
+        <canvas id="myCanvas" width="1280" height="720"></canvas>
+        <div>
+        <!--input type="button" value="stop" onclick="stopGame();" /-->
+        <!--input type="button" value ="start" onclick="startGame();" /-->
+        </div>
+        <img id="background"src = "sky.jpg" style="display:none"/>
+        <img id="player" src="heli.png" style="display:none" />
+        <img id="enemy" src="char10.png" style="display:none" />
+    </body>
+</html>
