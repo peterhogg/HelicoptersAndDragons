@@ -1,4 +1,5 @@
 /*
+ * @author Mark Green
  * This is the spritelib source file.
  */
 constants = {
